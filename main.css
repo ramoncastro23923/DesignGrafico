@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(65, 81, 225);
+}
+
+#header .nav .nav-link.active {
+    background-color: #FFF;
+    color: rgb(65, 81, 225);
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.nav-link.active:hover {
+    color: #FFF;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-toggler {
+    background-color: #FFF;
+}
+
+#sobre,
+#cardapio {
+    background-color: #e6efff;
+}
+
+.text-colored {
+    color: rgb(65, 81, 225);
+}
+
+.nav-cardapio .nav-link.nav-link.active,
+#contatos button {
+    background-color:rgb(65, 81, 225);
+    color: #FFF;
+}
+
+.nav-cardapio .nav-link.nav-link:hover {
+    color:rgb(65, 81, 225);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.error {
+    color: rgb(199, 32, 32);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
